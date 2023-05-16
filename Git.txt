@@ -1,0 +1,254 @@
+https://online-test.classplusapp.com/?testId=64564de6b5b1870984a7bb4d&defaultLanguage=en
+
+STEP1:
+Git Software install
+https://git-scm.com/download/win
+
+Imp note:
+while creating folders dont provide spaces
+
+Creating GITHUB ACCOUNT
+
+Repositories and Folders both are same
+Repositories - github.com
+windows - folders
+linux/gitbash - Directory
+
+
+
+echo "# myntralogin2023" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+#git branch -M main
+git remote add origin https://github.com/rushiinfotech369/myntralogin2023.git
+git push -u origin main
+
+Repositories and Folders both are same
+Repositories - github.com
+windows - folders
+Clone - download
+
+
+Terminal open --> to see the files
+
+ls
+
+
+
+git commit -m "login page is done"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Rushi-N@DESKTOP-4L64IR7.(none)')
+
+
+
+
+git config --global user.email "RushiN@xyz.com"
+git config --global user.name "NRushi"
+
+***************************************************************
+
+Git install
+Github account create
+Desktop 10 folders  github 10 repo
+
+
+
+10-05-2023:
+Funstransfer-banking
+mail
+
+
+1.How to rename a repository
+2.How to give colloboration acesses
+3.Revoke acesses
+4.Public to private
+5.private to Public 
+6.Delete the repo
+7.Notifications
+8.cloning data from one repo to another repo
+
+
+Task
+repo  --> new repo  --> gitbash
+data
+Task2:Upload data in to github using GUI
+
+
+
+
+Study on:
+Github recent pricings per repository
+
+
+FLIPKART-LIVE_PROD
+FLIPKART-LIVE_PROD2
+FLIPKART-LIVE_Test
+FLIPKART-LIVE_Bkp
+
+delete
+
+
+JIRA / MAILS/ SERVICE NOW
+
+*********************************
+
+11-05-2023
+
+touch file1
+touch file2 file3
+
+
+Logs:
+Author Logs
+git log --author=NRushi
+git log --author=RushiN@xyz.com
+
+
+Time
+git log --since=yy-mm-dd
+git log --since=2018-01-01 --author=NRushi --oneline
+
+git log --since=2018-01-01 --author=NRushi --oneline -3
+
+git log --until=2020-01-01 --author=NRushi --oneline
+
+git log --since=2020-01-01 --until=2023-05-11 --oneline
+
+**********************************************************
+
+STASH MEMORY
+
+
+ 34  git clone https://github.com/rushiinfotech369/myntralogin2023_may2023.git
+   35  ls
+   36  cd myntralogin2023_may2023
+   37  ls
+   38  git log
+   39  touch file1
+   40  ls
+   41  touch file2 file3 file4
+   42  ls
+   43  git status
+   44  git add *
+   45  git status
+   46  git commit -m "file1 work done" file1
+   47  git status
+   48  git log
+   49  git commit -m "file2 work done" file2
+   50  git status
+   51  git commit -m "file3 work done" file3
+   52  git commit -m "file4 work done" file4
+   53  git status
+   54  git log
+   55  git log --oneline
+   56  git log --author=NRushi
+   57  git log --author=RushiN@xyz.com
+   58  git log --author=RushiN@xyz.com --oneline
+   59  git log --since=2018-01-01
+   60  git log --since=2018-01-01 --author=NRushi
+   61  git log --since=2018-01-01 --author=NRushi --oneline
+   62  git log --since=2018-01-01 --author=NRushi --oneline -3
+   63  git log --since=2018-01-01 --author=NRushi --oneline -2
+   64  git log --since=2018-01-01 --author=NRushi --oneline -1
+   65  git log --until=2020-01-01 --author=NRushi --oneline
+   66  git log --since=2020-01-01 --until=2023-05-11 --oneline
+   67  touch dummy
+   68  git init
+   69  git add dummy
+   70  git commit -m "dummy"
+   71  touch lg onida whirlpool samsung
+   72  ls
+   73  git status
+   74  git add lg
+   75  git status
+   76  git stash save "lg file saving"
+   77  git status
+   78  git log
+   79  git stash list
+   80  git status
+   81  git add onida
+   82  git staus
+   83  git status
+   84  git stash save "onida"
+   85  git status
+   86  touch 1 2 10
+   87  git add 1 2 10
+   88  git status
+   89  git stash save "mutiple files"
+   90  git status
+   91  git stash list
+   92  git add samsung
+   93  git status
+   94  git stash save "samsung added"
+   95  git stash list
+   96  git add whirlpool
+   97  git stash save "whirlpool"
+   98  git stash list
+   99  git status
+  100  git stash apply
+  101  git status
+  102  git commit -m "whirlpool data live"
+  103  git status
+  104  git stash list
+  105  git stash apply stash@{4}
+  106  git stash list
+  107  git stash apply stash@{3}
+  108  git stash list
+  109  git stash pop
+  110  git stash list
+  111  git stash list
+  112  git stash pop stash@{2}
+  113  git stash list
+  114  git stash pop
+  115  git stash list
+  116  git stash pop stash@{1}
+  117  git stash pop
+  118  git stash list
+  119  history
+
+
+******************************
+15-05-2023
+
+touch whirlpool onida payment upi
+
+git branch branchname
+
+git checkout branchname
+
+
+windows notepad notedpad++ word
+
+Linux editor vi / nano
+
+vi file1
+i (insert)
+
+Esc :wq
+
+
+git merge master10
+Auto-merging file1
+CONFLICT (content): Merge conflict in file1
+Automatic merge failed; fix conflicts and then commit the result.
+
+Rushi-N@DESKTOP-4L64IR7 MINGW64 ~/Desktop/Mntra-project/branch (master|MERGING)
+
+
+15-05-2023
+
+1) How to delete a central branch from your local
+2) 3 branch   How to download a single branch from github  repo?
+3) Up-load data in to github repo using commandline
